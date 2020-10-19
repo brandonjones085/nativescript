@@ -1,6 +1,6 @@
-<ActionBar title="Today's Challenge"></ActionBar>
+<action-bar title="Today's Challenge" [showBackButton]="false"></action-bar>
   <StackLayout> <Label text="Today!"></Label>
-  <Button text="Today works" class="btn btn-primary" ngRouterLink="/curr-challenge"></Button>
+  <Button text="Today works" class="btn btn-primary" (tap)="onEdit()"></Button>
  </StackLayout>
 
 

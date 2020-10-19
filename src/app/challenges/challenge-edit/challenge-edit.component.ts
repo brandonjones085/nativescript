@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { PageRoute } from 'nativescript-angular/router';
+import { PageRoute } from '@nativescript/angular';
 
 @Component({
   selector: 'ns-challenge-edit',

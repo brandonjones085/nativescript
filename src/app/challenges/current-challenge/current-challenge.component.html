@@ -1,10 +1,10 @@
 
-<action-bar [title]="Today's Challenge"></action-bar>
+<action-bar title="Current Challenge"></action-bar>
 <StackLayout>
   <Label
     class="title"
     text="The current challenge"
     horizontalAlignment="center"
   ></Label>
-  <Button text="Change Status" ></Button>
+  <Button text="Edit" (tap)="onEdit()" ></Button>
 </StackLayout>
